@@ -5,7 +5,7 @@ import Bullet from '../Bullet'
 
 export const getBulletsAsTSXList = (bullets: BulletsSchema) =>
   bullets.map((bullet: any, index) => {
-    console.log(bullet)
+    console.log('Mi bullet es:', bullet)
 
     return (
       <Bullet
@@ -16,8 +16,8 @@ export const getBulletsAsTSXList = (bullets: BulletsSchema) =>
           bullet.link
             ? bullet.link
             : {
-                url: '/',
-                attributeNoFollow: false,
+                url: '',
+                attributeNofollow: false,
                 attributeTitle: '',
                 openNewTab: false,
                 newTab: false,

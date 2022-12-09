@@ -1,18 +1,18 @@
 .bullet__container {
   display: flex;
   overflow: auto;
-  margin-top: 4rem;
+  margin-top: 1rem;
   margin-bottom: -1rem;
 }
 
 .bullet__item,
 .bullet__item--image {
-  width: 80px;
-  min-width: 80px;
+  width: 200px;
+  min-width: 200px;
 }
 
 .bullet__container::-webkit-scrollbar {
-  height: 4px;
+  height: 0px;
 }
 
 .bullet__container::-webkit-scrollbar-track,
