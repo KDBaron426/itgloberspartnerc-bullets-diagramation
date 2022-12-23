@@ -53,8 +53,8 @@ For the prop `"link"` you have the next props:
 | "url"               | String  | Add an internal or external link for your store theme.                                                                                      | none          |
 | "attributeNofollow" | Boolean | Optional. Guides the search engine not to track the link of the page indicated by the tag. If true sets rel=noFollow attribute to the link. | false         |
 | "attributeTitle"    | String  | Optional. Add a title for the link.                                                                                                         | none          |
-| "openNewTab"        | Boolean | Optional. Open the link in a new tab.                                                                                                       |               |
-| "newTab"            | Boolean | Optional. Open the link in a new page.                                                                                                      |               |
+| "openNewTab"        | Boolean | Optional. Open the link in a new tab.                                                                                                       | none               |
+| "newTab"            | Boolean | Optional. Open the link in a new page.                                                                                                      | none              |
 
 ## Customization
 
